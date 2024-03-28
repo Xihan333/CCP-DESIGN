@@ -1,0 +1,12 @@
+|counter
+O3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst3.ACLR
+D1 => inst2.ACLR
+D1 => inst1.ACLR
+D1 => inst.ACLR
+D0 => inst.CLK
+02 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+01 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+O0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
