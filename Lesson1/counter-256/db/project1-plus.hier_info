@@ -1,0 +1,38 @@
+|project1-plus
+Q3 <= counter:inst.O3
+CP => counter:inst.CP
+CLR => counter:inst.D1
+CLR => counter:inst1.D1
+Q2 <= counter:inst.O2
+Q1 <= counter:inst.O1
+Q0 <= counter:inst.O0
+Q7 <= counter:inst1.O3
+Q6 <= counter:inst1.O2
+Q5 <= counter:inst1.O1
+Q4 <= counter:inst1.O0
+
+
+|project1-plus|counter:inst
+O3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst3.ACLR
+D1 => inst2.ACLR
+D1 => inst1.ACLR
+D1 => inst.ACLR
+CP => inst.CLK
+O0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|project1-plus|counter:inst1
+O3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D1 => inst3.ACLR
+D1 => inst2.ACLR
+D1 => inst1.ACLR
+D1 => inst.ACLR
+CP => inst.CLK
+O0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+O1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+O2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+

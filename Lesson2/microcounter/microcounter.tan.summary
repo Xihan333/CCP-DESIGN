@@ -1,0 +1,156 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.817 ns
+From           : S3
+To             : register-8:inst41|register-4:inst|inst
+From Clock     : --
+To Clock       : CP2
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 28.097 ns
+From           : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+To             : pin_name
+From Clock     : CP
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 15.296 ns
+From           : A7
+To             : pin_name
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.972 ns
+From           : CLR
+To             : preCounter-256:inst|preCounter-16:inst|inst2~_emulated
+From Clock     : --
+To Clock       : CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLR'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 58.42 MHz ( period = 17.118 ns )
+From           : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+From Clock     : CLR
+To Clock       : CLR
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A2'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 253.55 MHz ( period = 3.944 ns )
+From           : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+From Clock     : A2
+To Clock       : A2
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A1'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 253.55 MHz ( period = 3.944 ns )
+From           : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+From Clock     : A1
+To Clock       : A1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 253.55 MHz ( period = 3.944 ns )
+From           : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+From Clock     : A0
+To Clock       : A0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 253.55 MHz ( period = 3.944 ns )
+From           : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst1|inst3~_emulated
+From Clock     : CP
+To Clock       : CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A6'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+From Clock     : A6
+To Clock       : A6
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A5'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : preCounter-256:inst|preCounter-16:inst|inst2~_emulated
+To             : preCounter-256:inst|preCounter-16:inst|inst2~_emulated
+From Clock     : A5
+To Clock       : A5
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A4'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : preCounter-256:inst|preCounter-16:inst|inst1~_emulated
+To             : preCounter-256:inst|preCounter-16:inst|inst1~_emulated
+From Clock     : A4
+To Clock       : A4
+Failed Paths   : 0
+
+Type           : Clock Setup: 'A3'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 360.10 MHz ( period = 2.777 ns )
+From           : preCounter-256:inst|preCounter-16:inst|inst1~_emulated
+To             : preCounter-256:inst|preCounter-16:inst|inst1~_emulated
+From Clock     : A3
+To Clock       : A3
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLR'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+To             : preCounter-256:inst|preCounter-16:inst|inst3~_emulated
+From Clock     : CLR
+To Clock       : CLR
+Failed Paths   : 6
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 6
+
+--------------------------------------------------------------------------------------
+
