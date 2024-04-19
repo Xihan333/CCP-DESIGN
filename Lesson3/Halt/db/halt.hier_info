@@ -1,0 +1,9 @@
+|halt
+CP <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+HALT => inst.IN0
+MACHONG => inst5.IN1
+CLR => inst3.ACLR
+CLR => inst3.PRESET
+START => inst3.CLK
+
+

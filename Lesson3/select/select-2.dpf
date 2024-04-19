@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="a0" source="Pin Planner" >
+		</pin>
+		<pin name="a1" source="Pin Planner" >
+		</pin>
+		<pin name="a2" source="Pin Planner" >
+		</pin>
+		<pin name="a3" source="Pin Planner" >
+		</pin>
+		<pin name="a4" source="Pin Planner" >
+		</pin>
+		<pin name="a5" source="Pin Planner" >
+		</pin>
+		<pin name="a6" source="Pin Planner" >
+		</pin>
+		<pin name="a7" source="Pin Planner" >
+		</pin>
+		<pin name="b0" source="Pin Planner" >
+		</pin>
+		<pin name="b1" source="Pin Planner" >
+		</pin>
+		<pin name="b2" source="Pin Planner" >
+		</pin>
+		<pin name="b3" source="Pin Planner" >
+		</pin>
+		<pin name="b4" source="Pin Planner" >
+		</pin>
+		<pin name="b5" source="Pin Planner" >
+		</pin>
+		<pin name="b6" source="Pin Planner" >
+		</pin>
+		<pin name="b7" source="Pin Planner" >
+		</pin>
+		<pin name="AY" source="Pin Planner" >
+		</pin>
+		<pin name="BY" source="Pin Planner" >
+		</pin>
+		<pin name="Y0" source="Pin Planner" >
+		</pin>
+		<pin name="Y1" source="Pin Planner" >
+		</pin>
+		<pin name="Y2" source="Pin Planner" >
+		</pin>
+		<pin name="Y3" source="Pin Planner" >
+		</pin>
+		<pin name="Y4" source="Pin Planner" >
+		</pin>
+		<pin name="Y5" source="Pin Planner" >
+		</pin>
+		<pin name="Y6" source="Pin Planner" >
+		</pin>
+		<pin name="Y7" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>
