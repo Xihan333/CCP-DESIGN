@@ -1,5 +1,5 @@
 Fitter report for halt
-Fri Apr 19 20:47:06 2024
+Sun May 19 09:37:25 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Fitter Summary                                                               ;
 +------------------------------------+-----------------------------------------+
-; Fitter Status                      ; Successful - Fri Apr 19 20:47:06 2024   ;
+; Fitter Status                      ; Successful - Sun May 19 09:37:25 2024   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; halt                                    ;
 ; Top-level Entity Name              ; halt                                    ;
@@ -169,7 +169,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/Halt/halt.pin.
+The pin-out file can be found in G:/CCP-DESIGN/Lesson3/Halt/halt.pin.
 
 
 +-------------------------------------------------------------------+
@@ -230,7 +230,7 @@ The pin-out file can be found in D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson
 ; Name    ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Power Up High ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Location assigned by ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
 ; CLR     ; 77    ; 4        ; 18           ; 0            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
-; HALT    ; 99    ; 4        ; 30           ; 0            ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
+; HALT    ; 80    ; 4        ; 23           ; 0            ; 2           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; MACHONG ; 131   ; 3        ; 34           ; 10           ; 1           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 ; START   ; 132   ; 3        ; 34           ; 10           ; 0           ; 1                     ; 0                  ; no     ; no             ; no            ; no              ; no       ; Off          ; 3.3-V LVTTL  ; Off         ; User                 ;
 +---------+-------+----------+--------------+--------------+-------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+-------------+----------------------+
@@ -241,20 +241,20 @@ The pin-out file can be found in D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson
 +------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+
 ; Name ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Cell number ; Output Register ; Output Enable Register ; Power Up High ; PCI I/O Enabled ; Open Drain ; TRI Primitive ; Bus Hold ; Weak Pull Up ; I/O Standard ; Current Strength ; Termination ; Location assigned by ; Load ;
 +------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+
-; CP   ; 103   ; 4        ; 32           ; 0            ; 1           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ;
+; CP   ; 142   ; 3        ; 34           ; 12           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; User                 ; 0 pF ;
 +------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+
 
 
-+----------------------------------------------------------+
-; I/O Bank Usage                                           ;
-+----------+----------------+---------------+--------------+
-; I/O Bank ; Usage          ; VCCIO Voltage ; VREF Voltage ;
-+----------+----------------+---------------+--------------+
-; 1        ; 2 / 32 ( 6 % ) ; 3.3V          ; --           ;
-; 2        ; 0 / 35 ( 0 % ) ; 3.3V          ; --           ;
-; 3        ; 3 / 35 ( 9 % ) ; 3.3V          ; --           ;
-; 4        ; 3 / 36 ( 8 % ) ; 3.3V          ; --           ;
-+----------+----------------+---------------+--------------+
++-----------------------------------------------------------+
+; I/O Bank Usage                                            ;
++----------+-----------------+---------------+--------------+
+; I/O Bank ; Usage           ; VCCIO Voltage ; VREF Voltage ;
++----------+-----------------+---------------+--------------+
+; 1        ; 2 / 32 ( 6 % )  ; 3.3V          ; --           ;
+; 2        ; 0 / 35 ( 0 % )  ; 3.3V          ; --           ;
+; 3        ; 4 / 35 ( 11 % ) ; 3.3V          ; --           ;
+; 4        ; 2 / 36 ( 6 % )  ; 3.3V          ; --           ;
++----------+-----------------+---------------+--------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -341,7 +341,7 @@ The pin-out file can be found in D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson
 ; 77       ; 79         ; 4        ; CLR                                      ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 78       ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 79       ;            ;          ; VCCINT                                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
-; 80       ; 82         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
+; 80       ; 82         ; 4        ; HALT                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
 ; 81       ; 83         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 82       ; 84         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 83       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -360,11 +360,11 @@ The pin-out file can be found in D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson
 ; 96       ; 94         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 97       ; 95         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 98       ;            ; 4        ; VCCIO4                                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-; 99       ; 96         ; 4        ; HALT                                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; Y               ; no       ; Off          ;
+; 99       ; 96         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 100      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 101      ; 97         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 102      ; 98         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-; 103      ; 99         ; 4        ; CP                                       ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
+; 103      ; 99         ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 104      ; 100        ; 4        ; GND*                                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; 105      ; 101        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 106      ; 102        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -403,7 +403,7 @@ The pin-out file can be found in D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson
 ; 139      ; 136        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 140      ;            ;          ; GND                                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; 141      ; 137        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; 142      ; 138        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
+; 142      ; 138        ; 3        ; CP                                       ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; Y               ; no       ; Off          ;
 ; 143      ; 141        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 144      ; 142        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; 145      ; 143        ; 3        ; GND*                                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -541,10 +541,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------+-------------------+---------+
 ; MACHONG             ;                   ;         ;
 ; HALT                ;                   ;         ;
-;      - inst5~20     ; 0                 ; 6       ;
+;      - inst5~20     ; 1                 ; 6       ;
 ; START               ;                   ;         ;
 ; CLR                 ;                   ;         ;
-;      - inst3        ; 1                 ; 6       ;
+;      - inst3        ; 0                 ; 6       ;
 +---------------------+-------------------+---------+
 
 
@@ -579,13 +579,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Interconnect Resource Type ; Usage                ;
 +----------------------------+----------------------+
 ; Block interconnects        ; 5 / 26,052 ( < 1 % ) ;
-; C16 interconnects          ; 1 / 1,156 ( < 1 % )  ;
-; C4 interconnects           ; 7 / 17,952 ( < 1 % ) ;
+; C16 interconnects          ; 2 / 1,156 ( < 1 % )  ;
+; C4 interconnects           ; 3 / 17,952 ( < 1 % ) ;
 ; Direct links               ; 0 / 26,052 ( 0 % )   ;
 ; Global clocks              ; 0 / 8 ( 0 % )        ;
 ; Local interconnects        ; 1 / 8,256 ( < 1 % )  ;
-; R24 interconnects          ; 1 / 1,020 ( < 1 % )  ;
-; R4 interconnects           ; 1 / 22,440 ( < 1 % ) ;
+; R24 interconnects          ; 2 / 1,020 ( < 1 % )  ;
+; R4 interconnects           ; 0 / 22,440 ( 0 % )   ;
 +----------------------------+----------------------+
 
 
@@ -786,7 +786,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Fri Apr 19 20:47:05 2024
+    Info: Processing started: Sun May 19 09:37:24 2024
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off halt -c halt
 Info: Selected device EP2C8Q208C8 for design "halt"
 Info: Low junction temperature is 0 degrees C
@@ -801,8 +801,6 @@ Info: Fitter converted 3 user pins into dedicated programming pins
     Info: Pin ~ASDO~ is reserved at location 1
     Info: Pin ~nCSO~ is reserved at location 2
     Info: Pin ~LVDS54p/nCEO~ is reserved at location 108
-Warning: No exact pin location assignment(s) for 1 pins of 5 total pins
-    Info: Pin CP not assigned to an exact location on the device
 Info: Fitter is using the Classic Timing Analyzer
 Info: Timing requirements not specified -- quality metrics such as performance and power consumption may be sacrificed to reduce compilation time.
 Info: Starting register packing
@@ -814,15 +812,6 @@ Extra Info: Moving registers into I/O cells, Multiplier Blocks, and RAM blocks t
 Extra Info: Finished moving registers into I/O cells, Multiplier Blocks, and RAM blocks
 Info: Finished register packing
     Extra Info: No registers were packed into other blocks
-Info: Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
-    Info: Number of I/O pins in group: 1 (unused VREF, 3.3V VCCIO, 0 input, 1 output, 0 bidirectional)
-        Info: I/O standards used: 3.3-V LVTTL.
-Info: I/O bank details before I/O pin placement
-    Info: Statistics of I/O banks
-        Info: I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 2 total pin(s) used --  30 pins available
-        Info: I/O bank number 2 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  35 pins available
-        Info: I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 3 total pin(s) used --  32 pins available
-        Info: I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 2 total pin(s) used --  34 pins available
 Info: Fitter preparation operations ending: elapsed time is 00:00:00
 Info: Fitter placement preparation operations beginning
 Info: Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -841,10 +830,10 @@ Warning: Found 1 output pins without output pin load capacitance assignment
     Info: Pin "CP" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
 Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
-Info: Quartus II Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 270 megabytes
-    Info: Processing ended: Fri Apr 19 20:47:06 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+Info: Quartus II Fitter was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 218 megabytes
+    Info: Processing ended: Sun May 19 09:37:26 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

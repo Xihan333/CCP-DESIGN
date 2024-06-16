@@ -12,5 +12,5 @@ ptn_Child1=ViewFrame-0
 DocPathName=MAR-8.bdf
 DocumentCLSID={7b19e8f2-2bbe-11d1-a082-0020affa5bde}
 IsChildFrameDetached=False
-IsActiveChildFrame=True
+IsActiveChildFrame=False
 ptn_Child1=StateMap

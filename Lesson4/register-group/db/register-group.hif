@@ -1,0 +1,135 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+register-group
+# storage
+db|register-group.(0).cnf
+db|register-group.(0).cnf
+# case_insensitive
+# source_file
+register-group.bdf
+8bdcccd4508b1bda37cf89f2631e8d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+MAR-8
+# storage
+db|register-group.(1).cnf
+db|register-group.(1).cnf
+# case_insensitive
+# source_file
+MAR-8.bdf
+6b28393b1522522c4a836a41782d4ca
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MAR-8:inst
+MAR-8:inst1
+MAR-8:inst2
+MAR-8:inst3
+}
+# macro_sequence
+
+# end
+# entity
+74139
+# storage
+db|register-group.(2).cnf
+db|register-group.(2).cnf
+# case_insensitive
+# source_file
+..|..|..|libraries|others|maxplus2|74139.bdf
+4ab546d7302e8fe86bee1b6b8b90e8c6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+74139:inst15
+}
+# macro_sequence
+
+# end
+# entity
+select8-4
+# storage
+db|register-group.(3).cnf
+db|register-group.(3).cnf
+# case_insensitive
+# source_file
+..|select8-4|select8-4.bdf
+f31f75c546ffbd27515d8d52b246a15
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+select8-4:inst4
+}
+# macro_sequence
+
+# end
+# entity
+select1-4
+# storage
+db|register-group.(4).cnf
+db|register-group.(4).cnf
+# case_insensitive
+# source_file
+..|select1-4|select1-4.bdf
+91a4297bf61bee341bd4a805c2348
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+select8-4:inst4|select1-4:inst
+select8-4:inst4|select1-4:inst1
+select8-4:inst4|select1-4:inst2
+select8-4:inst4|select1-4:inst3
+select8-4:inst4|select1-4:inst4
+select8-4:inst4|select1-4:inst5
+select8-4:inst4|select1-4:inst6
+select8-4:inst4|select1-4:inst7
+}
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,171 @@
+|select8-4
+Y0 <= select1-4:inst.Y
+A0 => select1-4:inst.A
+AY => select1-4:inst.AY
+AY => select1-4:inst1.AY
+AY => select1-4:inst2.AY
+AY => select1-4:inst3.AY
+AY => select1-4:inst4.AY
+AY => select1-4:inst5.AY
+AY => select1-4:inst6.AY
+AY => select1-4:inst7.AY
+B0 => select1-4:inst.B
+BY => select1-4:inst.BY
+BY => select1-4:inst1.BY
+BY => select1-4:inst2.BY
+BY => select1-4:inst3.BY
+BY => select1-4:inst4.BY
+BY => select1-4:inst5.BY
+BY => select1-4:inst6.BY
+BY => select1-4:inst7.BY
+C0 => select1-4:inst.C
+CY => select1-4:inst.CY
+CY => select1-4:inst1.CY
+CY => select1-4:inst2.CY
+CY => select1-4:inst3.CY
+CY => select1-4:inst4.CY
+CY => select1-4:inst5.CY
+CY => select1-4:inst6.CY
+CY => select1-4:inst7.CY
+D0 => select1-4:inst.D
+DY => select1-4:inst.DY
+DY => select1-4:inst1.DY
+DY => select1-4:inst2.DY
+DY => select1-4:inst3.DY
+DY => select1-4:inst4.DY
+DY => select1-4:inst5.DY
+DY => select1-4:inst6.DY
+DY => select1-4:inst7.DY
+Y1 <= select1-4:inst1.Y
+A1 => select1-4:inst1.A
+B1 => select1-4:inst1.B
+C1 => select1-4:inst1.C
+D1 => select1-4:inst1.D
+Y2 <= select1-4:inst2.Y
+A2 => select1-4:inst2.A
+B2 => select1-4:inst2.B
+C2 => select1-4:inst2.C
+D2 => select1-4:inst2.D
+Y3 <= select1-4:inst3.Y
+A3 => select1-4:inst3.A
+B3 => select1-4:inst3.B
+C3 => select1-4:inst3.C
+D3 => select1-4:inst3.D
+Y4 <= select1-4:inst4.Y
+A4 => select1-4:inst4.A
+B4 => select1-4:inst4.B
+C4 => select1-4:inst4.C
+D4 => select1-4:inst4.D
+Y5 <= select1-4:inst5.Y
+A5 => select1-4:inst5.A
+B5 => select1-4:inst5.B
+C5 => select1-4:inst5.C
+D5 => select1-4:inst5.D
+Y6 <= select1-4:inst6.Y
+A6 => select1-4:inst6.A
+B6 => select1-4:inst6.B
+C6 => select1-4:inst6.C
+D6 => select1-4:inst6.D
+Y7 <= select1-4:inst7.Y
+A7 => select1-4:inst7.A
+B7 => select1-4:inst7.B
+C7 => select1-4:inst7.C
+D7 => select1-4:inst7.D
+
+
+|select8-4|select1-4:inst
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst1
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst2
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst3
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst4
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst5
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst6
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+
+|select8-4|select1-4:inst7
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+AY => inst.IN1
+C => inst2.IN0
+CY => inst2.IN1
+D => inst3.IN0
+DY => inst3.IN1
+B => inst1.IN0
+BY => inst1.IN1
+
+

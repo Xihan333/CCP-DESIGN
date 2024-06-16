@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Fri Apr 19 22:01:44 2024
+Analysis & Synthesis Status : Successful - Sun May 19 09:28:41 2024
 Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
 Revision Name : UPC
 Top-level Entity Name : UPC
 Family : Cyclone II
-Total logic elements : 18
-    Total combinational functions : 18
+Total logic elements : 14
+    Total combinational functions : 14
     Dedicated logic registers : 8
 Total registers : 8
-Total pins : 21
+Total pins : 19
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

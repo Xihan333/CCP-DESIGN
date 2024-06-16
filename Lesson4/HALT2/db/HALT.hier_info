@@ -1,0 +1,8 @@
+|HALT
+CP <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst5.IN0
+START => inst.ACLR
+HALT => inst.DATAIN
+CLRN => inst.PRESET
+
+

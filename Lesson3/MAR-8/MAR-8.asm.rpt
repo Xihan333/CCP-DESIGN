@@ -1,5 +1,5 @@
 Assembler report for MAR-8
-Fri Apr 19 23:33:54 2024
+Sun May 19 10:07:22 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MAR-8/MAR-8.sof
-  6. Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MAR-8/MAR-8.pof
+  5. Assembler Device Options: G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.sof
+  6. Assembler Device Options: G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 19 23:33:54 2024 ;
+; Assembler Status      ; Successful - Sun May 19 10:07:22 2024 ;
 ; Revision Name         ; MAR-8                                 ;
 ; Top-level Entity Name ; MAR-8                                 ;
 ; Family                ; Cyclone II                            ;
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+------------------------------------------------------------------+
-; Assembler Generated Files                                        ;
-+------------------------------------------------------------------+
-; File Name                                                        ;
-+------------------------------------------------------------------+
-; D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MAR-8/MAR-8.sof ;
-; D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MAR-8/MAR-8.pof ;
-+------------------------------------------------------------------+
++---------------------------------------+
+; Assembler Generated Files             ;
++---------------------------------------+
+; File Name                             ;
++---------------------------------------+
+; G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.sof ;
+; G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.pof ;
++---------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MAR-8/MAR-8.sof ;
-+----------------+---------------------------------------------------------------------------+
-; Option         ; Setting                                                                   ;
-+----------------+---------------------------------------------------------------------------+
-; Device         ; EP2C8Q208C8                                                               ;
-; JTAG usercode  ; 0xFFFFFFFF                                                                ;
-; Checksum       ; 0x000C5B84                                                                ;
-+----------------+---------------------------------------------------------------------------+
++-----------------------------------------------------------------+
+; Assembler Device Options: G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.sof ;
++----------------+------------------------------------------------+
+; Option         ; Setting                                        ;
++----------------+------------------------------------------------+
+; Device         ; EP2C8Q208C8                                    ;
+; JTAG usercode  ; 0xFFFFFFFF                                     ;
+; Checksum       ; 0x000C5F76                                     ;
++----------------+------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MAR-8/MAR-8.pof ;
-+--------------------+-----------------------------------------------------------------------+
-; Option             ; Setting                                                               ;
-+--------------------+-----------------------------------------------------------------------+
-; Device             ; EPCS4                                                                 ;
-; JTAG usercode      ; 0x00000000                                                            ;
-; Checksum           ; 0x06F0DA96                                                            ;
-; Compression Ratio  ; 3                                                                     ;
-+--------------------+-----------------------------------------------------------------------+
++-----------------------------------------------------------------+
+; Assembler Device Options: G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.pof ;
++--------------------+--------------------------------------------+
+; Option             ; Setting                                    ;
++--------------------+--------------------------------------------+
+; Device             ; EPCS4                                      ;
+; JTAG usercode      ; 0x00000000                                 ;
+; Checksum           ; 0x06F0A1A3                                 ;
+; Compression Ratio  ; 3                                          ;
++--------------------+--------------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Fri Apr 19 23:33:53 2024
+    Info: Processing started: Sun May 19 10:07:21 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off MAR-8 -c MAR-8
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 226 megabytes
-    Info: Processing ended: Fri Apr 19 23:33:54 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 189 megabytes
+    Info: Processing ended: Sun May 19 10:07:23 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

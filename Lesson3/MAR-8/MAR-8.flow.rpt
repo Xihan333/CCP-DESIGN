@@ -1,5 +1,5 @@
 Flow report for MAR-8
-Fri Apr 19 23:33:55 2024
+Sun May 19 10:07:24 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Fri Apr 19 23:33:55 2024   ;
+; Flow Status                        ; Successful - Sun May 19 10:07:24 2024   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; MAR-8                                   ;
 ; Top-level Entity Name              ; MAR-8                                   ;
@@ -63,24 +63,25 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/19/2024 23:33:51 ;
+; Start date & time ; 05/19/2024 10:07:15 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; MAR-8               ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                  ;
-+------------------------------------+-------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                         ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+-------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 1099183054846.171354083118784 ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 85                            ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; 0                             ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                      ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                        ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                           ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+-------------------------------+---------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                          ;
++------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 109952948961635.171608443401152       ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                    ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                     ; --            ; --          ; --             ;
+; MISC_FILE                          ; G:/CCP-DESIGN/Lesson3/MAR-8/MAR-8.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                              ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                   ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+---------------------------------------+---------------+-------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -88,11 +89,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:00     ; 1.0                     ; 226 MB              ; 00:00:00                           ;
-; Fitter                  ; 00:00:01     ; 1.0                     ; 260 MB              ; 00:00:00                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 226 MB              ; 00:00:00                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 181 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:03     ; --                      ; --                  ; 00:00:00                           ;
+; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 190 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:02     ; 1.0                     ; 210 MB              ; 00:00:01                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 189 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 146 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:06     ; --                      ; --                  ; 00:00:03                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -101,10 +102,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
-; Fitter                  ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
-; Assembler               ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
-; Classic Timing Analyzer ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
+; Analysis & Synthesis    ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
+; Fitter                  ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
+; Assembler               ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
+; Classic Timing Analyzer ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 

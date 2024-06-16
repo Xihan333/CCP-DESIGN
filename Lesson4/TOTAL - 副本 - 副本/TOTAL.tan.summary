@@ -1,0 +1,176 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.263 ns
+From           : uIR21
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : --
+To Clock       : uIR14
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 33.596 ns
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : TE10
+From Clock     : START
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.780 ns
+From           : uIR21
+To             : TE10
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.777 ns
+From           : uIR15
+To             : register-group:inst16|MAR-8:inst1|inst
+From Clock     : --
+To Clock       : START
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR14'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 62.43 MHz ( period = 16.018 ns )
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : uIR14
+To Clock       : uIR14
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR8'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 63.00 MHz ( period = 15.874 ns )
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : uIR8
+To Clock       : uIR8
+Failed Paths   : 0
+
+Type           : Clock Setup: 'START'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 63.00 MHz ( period = 15.874 ns )
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : START
+To Clock       : START
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 63.00 MHz ( period = 15.874 ns )
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : CP
+To Clock       : CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR12'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 64.39 MHz ( period = 15.530 ns )
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : uIR12
+To Clock       : uIR12
+Failed Paths   : 0
+
+Type           : Clock Setup: 'uIR13'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 64.94 MHz ( period = 15.400 ns )
+From           : register-group:inst16|MAR-8:inst|inst5
+To             : register-group:inst16|MAR-8:inst2|inst7
+From Clock     : uIR13
+To Clock       : uIR13
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CP'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : MAR-8:IR|inst5
+To             : UPC:inst1|74161:inst1|f74161:sub|110
+From Clock     : CP
+To Clock       : CP
+Failed Paths   : 374
+
+Type           : Clock Hold: 'START'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : MAR-8:IR|inst5
+To             : UPC:inst1|74161:inst1|f74161:sub|110
+From Clock     : START
+To Clock       : START
+Failed Paths   : 374
+
+Type           : Clock Hold: 'uIR8'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : MAR-8:IR|inst5
+To             : UPC:inst1|74161:inst1|f74161:sub|110
+From Clock     : uIR8
+To Clock       : uIR8
+Failed Paths   : 374
+
+Type           : Clock Hold: 'uIR13'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : MAR-8:IR|inst7
+To             : MAR-8:IR|inst1
+From Clock     : uIR13
+To Clock       : uIR13
+Failed Paths   : 222
+
+Type           : Clock Hold: 'uIR12'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : MAR-8:IR|inst7
+To             : MAR-8:IR|inst1
+From Clock     : uIR12
+To Clock       : uIR12
+Failed Paths   : 243
+
+Type           : Clock Hold: 'uIR14'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : MAR-8:IR|inst7
+To             : MAR-8:IR|inst1
+From Clock     : uIR14
+To Clock       : uIR14
+Failed Paths   : 332
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 1919
+
+--------------------------------------------------------------------------------------
+

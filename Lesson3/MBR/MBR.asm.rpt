@@ -1,5 +1,5 @@
 Assembler report for MBR
-Fri Apr 19 21:25:33 2024
+Sat Apr 20 15:14:04 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MBR/MBR.sof
-  6. Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MBR/MBR.pof
+  5. Assembler Device Options: G:/CCP-DESIGN/Lesson3/MBR/MBR.sof
+  6. Assembler Device Options: G:/CCP-DESIGN/Lesson3/MBR/MBR.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 19 21:25:33 2024 ;
+; Assembler Status      ; Successful - Sat Apr 20 15:14:04 2024 ;
 ; Revision Name         ; MBR                                   ;
 ; Top-level Entity Name ; MBR                                   ;
 ; Family                ; Cyclone II                            ;
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------------------------------+
-; Assembler Generated Files                                    ;
-+--------------------------------------------------------------+
-; File Name                                                    ;
-+--------------------------------------------------------------+
-; D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MBR/MBR.sof ;
-; D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MBR/MBR.pof ;
-+--------------------------------------------------------------+
++-----------------------------------+
+; Assembler Generated Files         ;
++-----------------------------------+
+; File Name                         ;
++-----------------------------------+
+; G:/CCP-DESIGN/Lesson3/MBR/MBR.sof ;
+; G:/CCP-DESIGN/Lesson3/MBR/MBR.pof ;
++-----------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MBR/MBR.sof ;
-+----------------+-----------------------------------------------------------------------+
-; Option         ; Setting                                                               ;
-+----------------+-----------------------------------------------------------------------+
-; Device         ; EP2C8Q208C8                                                           ;
-; JTAG usercode  ; 0xFFFFFFFF                                                            ;
-; Checksum       ; 0x000C6144                                                            ;
-+----------------+-----------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Assembler Device Options: G:/CCP-DESIGN/Lesson3/MBR/MBR.sof ;
++----------------+--------------------------------------------+
+; Option         ; Setting                                    ;
++----------------+--------------------------------------------+
+; Device         ; EP2C8Q208C8                                ;
+; JTAG usercode  ; 0xFFFFFFFF                                 ;
+; Checksum       ; 0x000C62E3                                 ;
++----------------+--------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/MBR/MBR.pof ;
-+--------------------+-------------------------------------------------------------------+
-; Option             ; Setting                                                           ;
-+--------------------+-------------------------------------------------------------------+
-; Device             ; EPCS4                                                             ;
-; JTAG usercode      ; 0x00000000                                                        ;
-; Checksum           ; 0x06F0C43F                                                        ;
-; Compression Ratio  ; 3                                                                 ;
-+--------------------+-------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Assembler Device Options: G:/CCP-DESIGN/Lesson3/MBR/MBR.pof ;
++--------------------+----------------------------------------+
+; Option             ; Setting                                ;
++--------------------+----------------------------------------+
+; Device             ; EPCS4                                  ;
+; JTAG usercode      ; 0x00000000                             ;
+; Checksum           ; 0x06F07ACE                             ;
+; Compression Ratio  ; 3                                      ;
++--------------------+----------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Fri Apr 19 21:25:32 2024
+    Info: Processing started: Sat Apr 20 15:14:02 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off MBR -c MBR
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 224 megabytes
-    Info: Processing ended: Fri Apr 19 21:25:33 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 189 megabytes
+    Info: Processing ended: Sat Apr 20 15:14:04 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

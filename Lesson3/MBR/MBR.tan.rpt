@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for MBR
-Fri Apr 19 21:25:33 2024
+Sat Apr 20 15:14:05 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -42,10 +42,10 @@ applicable agreement for further details.
 +------------------------------+-------+---------------+-------------+-------+-------+------------+----------+--------------+
 ; Type                         ; Slack ; Required Time ; Actual Time ; From  ; To    ; From Clock ; To Clock ; Failed Paths ;
 +------------------------------+-------+---------------+-------------+-------+-------+------------+----------+--------------+
-; Worst-case tsu               ; N/A   ; None          ; 4.112 ns    ; D5    ; inst4 ; --         ; CP       ; 0            ;
-; Worst-case tco               ; N/A   ; None          ; 8.483 ns    ; inst4 ; Q5    ; CP         ; --       ; 0            ;
-; Worst-case tpd               ; N/A   ; None          ; 11.395 ns   ; EN    ; Q7    ; --         ; --       ; 0            ;
-; Worst-case th                ; N/A   ; None          ; 1.103 ns    ; D2    ; inst7 ; --         ; CP       ; 0            ;
+; Worst-case tsu               ; N/A   ; None          ; 4.958 ns    ; D0    ; inst9 ; --         ; CP       ; 0            ;
+; Worst-case tco               ; N/A   ; None          ; 9.303 ns    ; inst3 ; Q6    ; CP         ; --       ; 0            ;
+; Worst-case tpd               ; N/A   ; None          ; 11.465 ns   ; EN    ; Q6    ; --         ; --       ; 0            ;
+; Worst-case th                ; N/A   ; None          ; -3.830 ns   ; D5    ; inst4 ; --         ; CP       ; 0            ;
 ; Total number of failed paths ;       ;               ;             ;       ;       ;            ;          ; 0            ;
 +------------------------------+-------+---------------+-------------+-------+-------+------------+----------+--------------+
 
@@ -96,14 +96,14 @@ applicable agreement for further details.
 +-------+--------------+------------+------+-------+----------+
 ; Slack ; Required tsu ; Actual tsu ; From ; To    ; To Clock ;
 +-------+--------------+------------+------+-------+----------+
-; N/A   ; None         ; 4.112 ns   ; D5   ; inst4 ; CP       ;
-; N/A   ; None         ; 4.102 ns   ; D1   ; inst8 ; CP       ;
-; N/A   ; None         ; 3.673 ns   ; D7   ; inst  ; CP       ;
-; N/A   ; None         ; 3.666 ns   ; D0   ; inst9 ; CP       ;
-; N/A   ; None         ; 3.648 ns   ; D4   ; inst5 ; CP       ;
-; N/A   ; None         ; 3.646 ns   ; D6   ; inst3 ; CP       ;
-; N/A   ; None         ; -0.350 ns  ; D3   ; inst6 ; CP       ;
-; N/A   ; None         ; -0.837 ns  ; D2   ; inst7 ; CP       ;
+; N/A   ; None         ; 4.958 ns   ; D0   ; inst9 ; CP       ;
+; N/A   ; None         ; 4.268 ns   ; D3   ; inst6 ; CP       ;
+; N/A   ; None         ; 4.261 ns   ; D6   ; inst3 ; CP       ;
+; N/A   ; None         ; 4.143 ns   ; D1   ; inst8 ; CP       ;
+; N/A   ; None         ; 4.128 ns   ; D2   ; inst7 ; CP       ;
+; N/A   ; None         ; 4.101 ns   ; D7   ; inst  ; CP       ;
+; N/A   ; None         ; 4.099 ns   ; D4   ; inst5 ; CP       ;
+; N/A   ; None         ; 4.096 ns   ; D5   ; inst4 ; CP       ;
 +-------+--------------+------------+------+-------+----------+
 
 
@@ -112,14 +112,14 @@ applicable agreement for further details.
 +-------+--------------+------------+-------+----+------------+
 ; Slack ; Required tco ; Actual tco ; From  ; To ; From Clock ;
 +-------+--------------+------------+-------+----+------------+
-; N/A   ; None         ; 8.483 ns   ; inst4 ; Q5 ; CP         ;
-; N/A   ; None         ; 8.079 ns   ; inst6 ; Q3 ; CP         ;
-; N/A   ; None         ; 7.732 ns   ; inst8 ; Q1 ; CP         ;
-; N/A   ; None         ; 7.661 ns   ; inst7 ; Q2 ; CP         ;
-; N/A   ; None         ; 7.436 ns   ; inst5 ; Q4 ; CP         ;
-; N/A   ; None         ; 6.980 ns   ; inst3 ; Q6 ; CP         ;
-; N/A   ; None         ; 6.960 ns   ; inst9 ; Q0 ; CP         ;
-; N/A   ; None         ; 6.941 ns   ; inst  ; Q7 ; CP         ;
+; N/A   ; None         ; 9.303 ns   ; inst3 ; Q6 ; CP         ;
+; N/A   ; None         ; 9.274 ns   ; inst5 ; Q4 ; CP         ;
+; N/A   ; None         ; 9.272 ns   ; inst4 ; Q5 ; CP         ;
+; N/A   ; None         ; 9.272 ns   ; inst  ; Q7 ; CP         ;
+; N/A   ; None         ; 9.258 ns   ; inst7 ; Q2 ; CP         ;
+; N/A   ; None         ; 9.226 ns   ; inst6 ; Q3 ; CP         ;
+; N/A   ; None         ; 9.225 ns   ; inst8 ; Q1 ; CP         ;
+; N/A   ; None         ; 8.825 ns   ; inst9 ; Q0 ; CP         ;
 +-------+--------------+------------+-------+----+------------+
 
 
@@ -128,14 +128,14 @@ applicable agreement for further details.
 +-------+-------------------+-----------------+------+----+
 ; Slack ; Required P2P Time ; Actual P2P Time ; From ; To ;
 +-------+-------------------+-----------------+------+----+
-; N/A   ; None              ; 11.395 ns       ; EN   ; Q7 ;
-; N/A   ; None              ; 11.314 ns       ; EN   ; Q1 ;
-; N/A   ; None              ; 11.287 ns       ; EN   ; Q4 ;
-; N/A   ; None              ; 11.072 ns       ; EN   ; Q2 ;
-; N/A   ; None              ; 11.039 ns       ; EN   ; Q0 ;
-; N/A   ; None              ; 10.840 ns       ; EN   ; Q5 ;
-; N/A   ; None              ; 10.835 ns       ; EN   ; Q3 ;
-; N/A   ; None              ; 10.365 ns       ; EN   ; Q6 ;
+; N/A   ; None              ; 11.465 ns       ; EN   ; Q6 ;
+; N/A   ; None              ; 11.455 ns       ; EN   ; Q7 ;
+; N/A   ; None              ; 11.064 ns       ; EN   ; Q5 ;
+; N/A   ; None              ; 11.054 ns       ; EN   ; Q4 ;
+; N/A   ; None              ; 11.048 ns       ; EN   ; Q3 ;
+; N/A   ; None              ; 11.008 ns       ; EN   ; Q0 ;
+; N/A   ; None              ; 10.982 ns       ; EN   ; Q1 ;
+; N/A   ; None              ; 10.982 ns       ; EN   ; Q2 ;
 +-------+-------------------+-----------------+------+----+
 
 
@@ -144,14 +144,14 @@ applicable agreement for further details.
 +---------------+-------------+-----------+------+-------+----------+
 ; Minimum Slack ; Required th ; Actual th ; From ; To    ; To Clock ;
 +---------------+-------------+-----------+------+-------+----------+
-; N/A           ; None        ; 1.103 ns  ; D2   ; inst7 ; CP       ;
-; N/A           ; None        ; 0.616 ns  ; D3   ; inst6 ; CP       ;
-; N/A           ; None        ; -3.380 ns ; D6   ; inst3 ; CP       ;
-; N/A           ; None        ; -3.382 ns ; D4   ; inst5 ; CP       ;
-; N/A           ; None        ; -3.400 ns ; D0   ; inst9 ; CP       ;
-; N/A           ; None        ; -3.407 ns ; D7   ; inst  ; CP       ;
-; N/A           ; None        ; -3.836 ns ; D1   ; inst8 ; CP       ;
-; N/A           ; None        ; -3.846 ns ; D5   ; inst4 ; CP       ;
+; N/A           ; None        ; -3.830 ns ; D5   ; inst4 ; CP       ;
+; N/A           ; None        ; -3.833 ns ; D4   ; inst5 ; CP       ;
+; N/A           ; None        ; -3.835 ns ; D7   ; inst  ; CP       ;
+; N/A           ; None        ; -3.862 ns ; D2   ; inst7 ; CP       ;
+; N/A           ; None        ; -3.877 ns ; D1   ; inst8 ; CP       ;
+; N/A           ; None        ; -3.995 ns ; D6   ; inst3 ; CP       ;
+; N/A           ; None        ; -4.002 ns ; D3   ; inst6 ; CP       ;
+; N/A           ; None        ; -4.692 ns ; D0   ; inst9 ; CP       ;
 +---------------+-------------+-----------+------+-------+----------+
 
 
@@ -161,61 +161,60 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Fri Apr 19 21:25:33 2024
+    Info: Processing started: Sat Apr 20 15:14:05 2024
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off MBR -c MBR --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "CP" is an undefined clock
 Info: No valid register-to-register data paths exist for clock "CP"
-Info: tsu for register "inst4" (data pin = "D5", clock pin = "CP") is 4.112 ns
-    Info: + Longest pin to register delay is 7.022 ns
-        Info: 1: + IC(0.000 ns) + CELL(0.984 ns) = 0.984 ns; Loc. = PIN_89; Fanout = 1; PIN Node = 'D5'
-        Info: 2: + IC(5.724 ns) + CELL(0.206 ns) = 6.914 ns; Loc. = LCCOMB_X28_Y4_N0; Fanout = 1; COMB Node = 'inst4~feeder'
-        Info: 3: + IC(0.000 ns) + CELL(0.108 ns) = 7.022 ns; Loc. = LCFF_X28_Y4_N1; Fanout = 1; REG Node = 'inst4'
-        Info: Total cell delay = 1.298 ns ( 18.48 % )
-        Info: Total interconnect delay = 5.724 ns ( 81.52 % )
+Info: tsu for register "inst9" (data pin = "D0", clock pin = "CP") is 4.958 ns
+    Info: + Longest pin to register delay is 7.871 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.974 ns) = 0.974 ns; Loc. = PIN_77; Fanout = 1; PIN Node = 'D0'
+        Info: 2: + IC(6.437 ns) + CELL(0.460 ns) = 7.871 ns; Loc. = LCFF_X25_Y4_N7; Fanout = 1; REG Node = 'inst9'
+        Info: Total cell delay = 1.434 ns ( 18.22 % )
+        Info: Total interconnect delay = 6.437 ns ( 81.78 % )
     Info: + Micro setup delay of destination is -0.040 ns
-    Info: - Shortest clock path from clock "CP" to destination register is 2.870 ns
-        Info: 1: + IC(0.000 ns) + CELL(1.140 ns) = 1.140 ns; Loc. = PIN_23; Fanout = 1; CLK Node = 'CP'
-        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.279 ns; Loc. = CLKCTRL_G2; Fanout = 8; COMB Node = 'CP~clkctrl'
-        Info: 3: + IC(0.925 ns) + CELL(0.666 ns) = 2.870 ns; Loc. = LCFF_X28_Y4_N1; Fanout = 1; REG Node = 'inst4'
-        Info: Total cell delay = 1.806 ns ( 62.93 % )
-        Info: Total interconnect delay = 1.064 ns ( 37.07 % )
-Info: tco from clock "CP" to destination pin "Q5" through register "inst4" is 8.483 ns
-    Info: + Longest clock path from clock "CP" to source register is 2.870 ns
-        Info: 1: + IC(0.000 ns) + CELL(1.140 ns) = 1.140 ns; Loc. = PIN_23; Fanout = 1; CLK Node = 'CP'
-        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.279 ns; Loc. = CLKCTRL_G2; Fanout = 8; COMB Node = 'CP~clkctrl'
-        Info: 3: + IC(0.925 ns) + CELL(0.666 ns) = 2.870 ns; Loc. = LCFF_X28_Y4_N1; Fanout = 1; REG Node = 'inst4'
-        Info: Total cell delay = 1.806 ns ( 62.93 % )
-        Info: Total interconnect delay = 1.064 ns ( 37.07 % )
+    Info: - Shortest clock path from clock "CP" to destination register is 2.873 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.150 ns) = 1.150 ns; Loc. = PIN_132; Fanout = 1; CLK Node = 'CP'
+        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.289 ns; Loc. = CLKCTRL_G6; Fanout = 8; COMB Node = 'CP~clkctrl'
+        Info: 3: + IC(0.918 ns) + CELL(0.666 ns) = 2.873 ns; Loc. = LCFF_X25_Y4_N7; Fanout = 1; REG Node = 'inst9'
+        Info: Total cell delay = 1.816 ns ( 63.21 % )
+        Info: Total interconnect delay = 1.057 ns ( 36.79 % )
+Info: tco from clock "CP" to destination pin "Q6" through register "inst3" is 9.303 ns
+    Info: + Longest clock path from clock "CP" to source register is 2.873 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.150 ns) = 1.150 ns; Loc. = PIN_132; Fanout = 1; CLK Node = 'CP'
+        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.289 ns; Loc. = CLKCTRL_G6; Fanout = 8; COMB Node = 'CP~clkctrl'
+        Info: 3: + IC(0.918 ns) + CELL(0.666 ns) = 2.873 ns; Loc. = LCFF_X25_Y4_N11; Fanout = 1; REG Node = 'inst3'
+        Info: Total cell delay = 1.816 ns ( 63.21 % )
+        Info: Total interconnect delay = 1.057 ns ( 36.79 % )
     Info: + Micro clock to output delay of source is 0.304 ns
-    Info: + Longest register to pin delay is 5.309 ns
-        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = LCFF_X28_Y4_N1; Fanout = 1; REG Node = 'inst4'
-        Info: 2: + IC(2.213 ns) + CELL(3.096 ns) = 5.309 ns; Loc. = PIN_134; Fanout = 0; PIN Node = 'Q5'
-        Info: Total cell delay = 3.096 ns ( 58.32 % )
-        Info: Total interconnect delay = 2.213 ns ( 41.68 % )
-Info: Longest tpd from source pin "EN" to destination pin "Q7" is 11.395 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.984 ns) = 0.984 ns; Loc. = PIN_191; Fanout = 8; PIN Node = 'EN'
-    Info: 2: + IC(7.276 ns) + CELL(3.135 ns) = 11.395 ns; Loc. = PIN_30; Fanout = 0; PIN Node = 'Q7'
-    Info: Total cell delay = 4.119 ns ( 36.15 % )
-    Info: Total interconnect delay = 7.276 ns ( 63.85 % )
-Info: th for register "inst7" (data pin = "D2", clock pin = "CP") is 1.103 ns
-    Info: + Longest clock path from clock "CP" to destination register is 2.816 ns
-        Info: 1: + IC(0.000 ns) + CELL(1.140 ns) = 1.140 ns; Loc. = PIN_23; Fanout = 1; CLK Node = 'CP'
-        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.279 ns; Loc. = CLKCTRL_G2; Fanout = 8; COMB Node = 'CP~clkctrl'
-        Info: 3: + IC(0.871 ns) + CELL(0.666 ns) = 2.816 ns; Loc. = LCFF_X1_Y9_N1; Fanout = 1; REG Node = 'inst7'
-        Info: Total cell delay = 1.806 ns ( 64.13 % )
-        Info: Total interconnect delay = 1.010 ns ( 35.87 % )
+    Info: + Longest register to pin delay is 6.126 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = LCFF_X25_Y4_N11; Fanout = 1; REG Node = 'inst3'
+        Info: 2: + IC(3.010 ns) + CELL(3.116 ns) = 6.126 ns; Loc. = PIN_149; Fanout = 0; PIN Node = 'Q6'
+        Info: Total cell delay = 3.116 ns ( 50.87 % )
+        Info: Total interconnect delay = 3.010 ns ( 49.13 % )
+Info: Longest tpd from source pin "EN" to destination pin "Q6" is 11.465 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.994 ns) = 0.994 ns; Loc. = PIN_68; Fanout = 8; PIN Node = 'EN'
+    Info: 2: + IC(7.316 ns) + CELL(3.155 ns) = 11.465 ns; Loc. = PIN_149; Fanout = 0; PIN Node = 'Q6'
+    Info: Total cell delay = 4.149 ns ( 36.19 % )
+    Info: Total interconnect delay = 7.316 ns ( 63.81 % )
+Info: th for register "inst4" (data pin = "D5", clock pin = "CP") is -3.830 ns
+    Info: + Longest clock path from clock "CP" to destination register is 2.873 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.150 ns) = 1.150 ns; Loc. = PIN_132; Fanout = 1; CLK Node = 'CP'
+        Info: 2: + IC(0.139 ns) + CELL(0.000 ns) = 1.289 ns; Loc. = CLKCTRL_G6; Fanout = 8; COMB Node = 'CP~clkctrl'
+        Info: 3: + IC(0.918 ns) + CELL(0.666 ns) = 2.873 ns; Loc. = LCFF_X25_Y4_N5; Fanout = 1; REG Node = 'inst4'
+        Info: Total cell delay = 1.816 ns ( 63.21 % )
+        Info: Total interconnect delay = 1.057 ns ( 36.79 % )
     Info: + Micro hold delay of destination is 0.306 ns
-    Info: - Shortest pin to register delay is 2.019 ns
-        Info: 1: + IC(0.000 ns) + CELL(1.140 ns) = 1.140 ns; Loc. = PIN_28; Fanout = 1; PIN Node = 'D2'
-        Info: 2: + IC(0.565 ns) + CELL(0.206 ns) = 1.911 ns; Loc. = LCCOMB_X1_Y9_N0; Fanout = 1; COMB Node = 'inst7~feeder'
-        Info: 3: + IC(0.000 ns) + CELL(0.108 ns) = 2.019 ns; Loc. = LCFF_X1_Y9_N1; Fanout = 1; REG Node = 'inst7'
-        Info: Total cell delay = 1.454 ns ( 72.02 % )
-        Info: Total interconnect delay = 0.565 ns ( 27.98 % )
+    Info: - Shortest pin to register delay is 7.009 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.964 ns) = 0.964 ns; Loc. = PIN_86; Fanout = 1; PIN Node = 'D5'
+        Info: 2: + IC(5.731 ns) + CELL(0.206 ns) = 6.901 ns; Loc. = LCCOMB_X25_Y4_N4; Fanout = 1; COMB Node = 'inst4~feeder'
+        Info: 3: + IC(0.000 ns) + CELL(0.108 ns) = 7.009 ns; Loc. = LCFF_X25_Y4_N5; Fanout = 1; REG Node = 'inst4'
+        Info: Total cell delay = 1.278 ns ( 18.23 % )
+        Info: Total interconnect delay = 5.731 ns ( 81.77 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 197 megabytes
-    Info: Processing ended: Fri Apr 19 21:25:34 2024
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 160 megabytes
+    Info: Processing ended: Sat Apr 20 15:14:05 2024
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
 

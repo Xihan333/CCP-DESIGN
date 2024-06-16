@@ -1,5 +1,5 @@
 Assembler report for UPC
-Fri Apr 19 22:01:47 2024
+Sun May 19 09:28:47 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/UPC/UPC.sof
-  6. Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/UPC/UPC.pof
+  5. Assembler Device Options: G:/CCP-DESIGN/Lesson3/UPC/UPC.sof
+  6. Assembler Device Options: G:/CCP-DESIGN/Lesson3/UPC/UPC.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Apr 19 22:01:47 2024 ;
+; Assembler Status      ; Successful - Sun May 19 09:28:47 2024 ;
 ; Revision Name         ; UPC                                   ;
 ; Top-level Entity Name ; UPC                                   ;
 ; Family                ; Cyclone II                            ;
@@ -76,37 +76,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+--------------------------------------------------------------+
-; Assembler Generated Files                                    ;
-+--------------------------------------------------------------+
-; File Name                                                    ;
-+--------------------------------------------------------------+
-; D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/UPC/UPC.sof ;
-; D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/UPC/UPC.pof ;
-+--------------------------------------------------------------+
++-----------------------------------+
+; Assembler Generated Files         ;
++-----------------------------------+
+; File Name                         ;
++-----------------------------------+
+; G:/CCP-DESIGN/Lesson3/UPC/UPC.sof ;
+; G:/CCP-DESIGN/Lesson3/UPC/UPC.pof ;
++-----------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/UPC/UPC.sof ;
-+----------------+-----------------------------------------------------------------------+
-; Option         ; Setting                                                               ;
-+----------------+-----------------------------------------------------------------------+
-; Device         ; EP2C8Q208C8                                                           ;
-; JTAG usercode  ; 0xFFFFFFFF                                                            ;
-; Checksum       ; 0x000C7DAA                                                            ;
-+----------------+-----------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Assembler Device Options: G:/CCP-DESIGN/Lesson3/UPC/UPC.sof ;
++----------------+--------------------------------------------+
+; Option         ; Setting                                    ;
++----------------+--------------------------------------------+
+; Device         ; EP2C8Q208C8                                ;
+; JTAG usercode  ; 0xFFFFFFFF                                 ;
+; Checksum       ; 0x000C78B9                                 ;
++----------------+--------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Users/DELL/AppData/quartus/CCP-DESIGN/Lesson3/UPC/UPC.pof ;
-+--------------------+-------------------------------------------------------------------+
-; Option             ; Setting                                                           ;
-+--------------------+-------------------------------------------------------------------+
-; Device             ; EPCS4                                                             ;
-; JTAG usercode      ; 0x00000000                                                        ;
-; Checksum           ; 0x06F08739                                                        ;
-; Compression Ratio  ; 3                                                                 ;
-+--------------------+-------------------------------------------------------------------+
++-------------------------------------------------------------+
+; Assembler Device Options: G:/CCP-DESIGN/Lesson3/UPC/UPC.pof ;
++--------------------+----------------------------------------+
+; Option             ; Setting                                ;
++--------------------+----------------------------------------+
+; Device             ; EPCS4                                  ;
+; JTAG usercode      ; 0x00000000                             ;
+; Checksum           ; 0x06F07BE0                             ;
+; Compression Ratio  ; 3                                      ;
++--------------------+----------------------------------------+
 
 
 +--------------------+
@@ -115,14 +115,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Fri Apr 19 22:01:46 2024
+    Info: Processing started: Sun May 19 09:28:45 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off UPC -c UPC
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 225 megabytes
-    Info: Processing ended: Fri Apr 19 22:01:47 2024
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 189 megabytes
+    Info: Processing ended: Sun May 19 09:28:47 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 

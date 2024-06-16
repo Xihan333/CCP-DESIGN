@@ -1,0 +1,126 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+945
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+24_decoder
+# storage
+db|MICRO_AD.(1).cnf
+db|MICRO_AD.(1).cnf
+# case_insensitive
+# source_file
+24_decoder.bdf
+7810592bc813f1eaeea894a50762638
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+24_decoder:inst8
+}
+# macro_sequence
+
+# end
+# entity
+38_decoder
+# storage
+db|MICRO_AD.(2).cnf
+db|MICRO_AD.(2).cnf
+# case_insensitive
+# source_file
+38_decoder.bdf
+ce95eaa7a0801a2b705ca5ea74e4b7a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+38_decoder:inst15
+24_decoder:inst8|38_decoder:inst
+}
+# macro_sequence
+
+# end
+# entity
+triple_selector_8b
+# storage
+db|MICRO_AD.(3).cnf
+db|MICRO_AD.(3).cnf
+# case_insensitive
+# source_file
+triple_selector_8b.bdf
+faf397453d6830c2ec2358bb378770
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+triple_selector_8b:inst
+}
+# macro_sequence
+
+# end
+# entity
+select-2
+# storage
+db|MICRO_AD.(4).cnf
+db|MICRO_AD.(4).cnf
+# case_insensitive
+# source_file
+select-2.bdf
+1ebdc4f8457117a1ab60cd581879e6b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+select-2:inst6
+}
+# macro_sequence
+
+# end
+# entity
+MICRO_AD
+# storage
+db|MICRO_AD.(0).cnf
+db|MICRO_AD.(0).cnf
+# case_insensitive
+# source_file
+MICRO_AD.bdf
+7a3cb331aca58d4e80fec28c28c7d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

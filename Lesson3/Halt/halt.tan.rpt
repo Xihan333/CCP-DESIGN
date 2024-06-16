@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for halt
-Fri Apr 19 20:47:08 2024
+Sun May 19 09:37:29 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -40,8 +40,8 @@ applicable agreement for further details.
 +------------------------------+-------+---------------+-------------+-------+----+------------+----------+--------------+
 ; Type                         ; Slack ; Required Time ; Actual Time ; From  ; To ; From Clock ; To Clock ; Failed Paths ;
 +------------------------------+-------+---------------+-------------+-------+----+------------+----------+--------------+
-; Worst-case tco               ; N/A   ; None          ; 8.717 ns    ; inst3 ; CP ; START      ; --       ; 0            ;
-; Worst-case tpd               ; N/A   ; None          ; 12.471 ns   ; HALT  ; CP ; --         ; --       ; 0            ;
+; Worst-case tco               ; N/A   ; None          ; 7.751 ns    ; inst3 ; CP ; START      ; --       ; 0            ;
+; Worst-case tpd               ; N/A   ; None          ; 12.254 ns   ; HALT  ; CP ; --         ; --       ; 0            ;
 ; Total number of failed paths ;       ;               ;             ;       ;    ;            ;          ; 0            ;
 +------------------------------+-------+---------------+-------------+-------+----+------------+----------+--------------+
 
@@ -92,7 +92,7 @@ applicable agreement for further details.
 +-------+--------------+------------+-------+----+------------+
 ; Slack ; Required tco ; Actual tco ; From  ; To ; From Clock ;
 +-------+--------------+------------+-------+----+------------+
-; N/A   ; None         ; 8.717 ns   ; inst3 ; CP ; START      ;
+; N/A   ; None         ; 7.751 ns   ; inst3 ; CP ; START      ;
 +-------+--------------+------------+-------+----+------------+
 
 
@@ -101,8 +101,8 @@ applicable agreement for further details.
 +-------+-------------------+-----------------+---------+----+
 ; Slack ; Required P2P Time ; Actual P2P Time ; From    ; To ;
 +-------+-------------------+-----------------+---------+----+
-; N/A   ; None              ; 12.471 ns       ; HALT    ; CP ;
-; N/A   ; None              ; 6.990 ns        ; MACHONG ; CP ;
+; N/A   ; None              ; 12.254 ns       ; HALT    ; CP ;
+; N/A   ; None              ; 6.020 ns        ; MACHONG ; CP ;
 +-------+-------------------+-----------------+---------+----+
 
 
@@ -112,34 +112,34 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 8.1 Build 163 10/28/2008 SJ Web Edition
-    Info: Processing started: Fri Apr 19 20:47:08 2024
+    Info: Processing started: Sun May 19 09:37:29 2024
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off halt -c halt --timing_analysis_only
 Warning: Found pins functioning as undefined clocks and/or memory enables
     Info: Assuming node "START" is an undefined clock
 Info: No valid register-to-register data paths exist for clock "START"
-Info: tco from clock "START" to destination pin "CP" through register "inst3" is 8.717 ns
-    Info: + Longest clock path from clock "START" to source register is 2.769 ns
+Info: tco from clock "START" to destination pin "CP" through register "inst3" is 7.751 ns
+    Info: + Longest clock path from clock "START" to source register is 2.339 ns
         Info: 1: + IC(0.000 ns) + CELL(1.150 ns) = 1.150 ns; Loc. = PIN_132; Fanout = 1; CLK Node = 'START'
-        Info: 2: + IC(0.953 ns) + CELL(0.666 ns) = 2.769 ns; Loc. = LCFF_X33_Y7_N1; Fanout = 1; REG Node = 'inst3'
-        Info: Total cell delay = 1.816 ns ( 65.58 % )
-        Info: Total interconnect delay = 0.953 ns ( 34.42 % )
+        Info: 2: + IC(0.523 ns) + CELL(0.666 ns) = 2.339 ns; Loc. = LCFF_X33_Y10_N1; Fanout = 1; REG Node = 'inst3'
+        Info: Total cell delay = 1.816 ns ( 77.64 % )
+        Info: Total interconnect delay = 0.523 ns ( 22.36 % )
     Info: + Micro clock to output delay of source is 0.304 ns
-    Info: + Longest register to pin delay is 5.644 ns
-        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = LCFF_X33_Y7_N1; Fanout = 1; REG Node = 'inst3'
-        Info: 2: + IC(0.434 ns) + CELL(0.577 ns) = 1.011 ns; Loc. = LCCOMB_X33_Y7_N18; Fanout = 1; COMB Node = 'inst5~20'
-        Info: 3: + IC(1.327 ns) + CELL(3.306 ns) = 5.644 ns; Loc. = PIN_103; Fanout = 0; PIN Node = 'CP'
-        Info: Total cell delay = 3.883 ns ( 68.80 % )
-        Info: Total interconnect delay = 1.761 ns ( 31.20 % )
-Info: Longest tpd from source pin "HALT" to destination pin "CP" is 12.471 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.974 ns) = 0.974 ns; Loc. = PIN_99; Fanout = 1; PIN Node = 'HALT'
-    Info: 2: + IC(6.494 ns) + CELL(0.370 ns) = 7.838 ns; Loc. = LCCOMB_X33_Y7_N18; Fanout = 1; COMB Node = 'inst5~20'
-    Info: 3: + IC(1.327 ns) + CELL(3.306 ns) = 12.471 ns; Loc. = PIN_103; Fanout = 0; PIN Node = 'CP'
-    Info: Total cell delay = 4.650 ns ( 37.29 % )
-    Info: Total interconnect delay = 7.821 ns ( 62.71 % )
+    Info: + Longest register to pin delay is 5.108 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = LCFF_X33_Y10_N1; Fanout = 1; REG Node = 'inst3'
+        Info: 2: + IC(0.429 ns) + CELL(0.577 ns) = 1.006 ns; Loc. = LCCOMB_X33_Y10_N2; Fanout = 1; COMB Node = 'inst5~20'
+        Info: 3: + IC(1.006 ns) + CELL(3.096 ns) = 5.108 ns; Loc. = PIN_142; Fanout = 0; PIN Node = 'CP'
+        Info: Total cell delay = 3.673 ns ( 71.91 % )
+        Info: Total interconnect delay = 1.435 ns ( 28.09 % )
+Info: Longest tpd from source pin "HALT" to destination pin "CP" is 12.254 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.984 ns) = 0.984 ns; Loc. = PIN_80; Fanout = 1; PIN Node = 'HALT'
+    Info: 2: + IC(6.798 ns) + CELL(0.370 ns) = 8.152 ns; Loc. = LCCOMB_X33_Y10_N2; Fanout = 1; COMB Node = 'inst5~20'
+    Info: 3: + IC(1.006 ns) + CELL(3.096 ns) = 12.254 ns; Loc. = PIN_142; Fanout = 0; PIN Node = 'CP'
+    Info: Total cell delay = 4.450 ns ( 36.31 % )
+    Info: Total interconnect delay = 7.804 ns ( 63.69 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 197 megabytes
-    Info: Processing ended: Fri Apr 19 20:47:08 2024
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 160 megabytes
+    Info: Processing ended: Sun May 19 09:37:30 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 

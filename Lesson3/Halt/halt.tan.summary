@@ -5,7 +5,7 @@ Timing Analyzer Summary
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 8.717 ns
+Actual Time    : 7.751 ns
 From           : inst3
 To             : CP
 From Clock     : START
@@ -15,7 +15,7 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 12.471 ns
+Actual Time    : 12.254 ns
 From           : HALT
 To             : CP
 From Clock     : --

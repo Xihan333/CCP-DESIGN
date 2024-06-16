@@ -1,0 +1,69 @@
+|register-8
+q7 <= register-4:inst.q3
+CLR => register-4:inst.CLR
+CLR => register-4:inst1.CLR
+CP => register-4:inst.CP
+CP => register-4:inst1.CP
+d7 => register-4:inst.d3
+d6 => register-4:inst.d2
+d5 => register-4:inst.d1
+d4 => register-4:inst.d0
+q6 <= register-4:inst.q2
+q5 <= register-4:inst.q1
+q4 <= register-4:inst.q0
+q3 <= register-4:inst1.q3
+d3 => register-4:inst1.d3
+d2 => register-4:inst1.d2
+d1 => register-4:inst1.d1
+d0 => register-4:inst1.d0
+q2 <= register-4:inst1.q2
+q1 <= register-4:inst1.q1
+q0 <= register-4:inst1.q0
+
+
+|register-8|register-4:inst
+q3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst.PRESET
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst2.ACLR
+CLR => inst2.PRESET
+CLR => inst3.ACLR
+CLR => inst3.PRESET
+CP => inst.CLK
+CP => inst1.CLK
+CP => inst2.CLK
+CP => inst3.CLK
+d3 => inst.DATAIN
+q2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+d2 => inst1.DATAIN
+q1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+d1 => inst2.DATAIN
+q0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d0 => inst3.DATAIN
+
+
+|register-8|register-4:inst1
+q3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLR => inst.PRESET
+CLR => inst1.ACLR
+CLR => inst1.PRESET
+CLR => inst2.ACLR
+CLR => inst2.PRESET
+CLR => inst3.ACLR
+CLR => inst3.PRESET
+CP => inst.CLK
+CP => inst1.CLK
+CP => inst2.CLK
+CP => inst3.CLK
+d3 => inst.DATAIN
+q2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+d2 => inst1.DATAIN
+q1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+d1 => inst2.DATAIN
+q0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d0 => inst3.DATAIN
+
+

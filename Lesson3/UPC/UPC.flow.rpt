@@ -1,5 +1,5 @@
 Flow report for UPC
-Fri Apr 19 22:01:47 2024
+Sun May 19 09:28:49 2024
 Quartus II Version 8.1 Build 163 10/28/2008 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +------------------------------------+-----------------------------------------+
-; Flow Status                        ; Successful - Fri Apr 19 22:01:47 2024   ;
+; Flow Status                        ; Successful - Sun May 19 09:28:48 2024   ;
 ; Quartus II Version                 ; 8.1 Build 163 10/28/2008 SJ Web Edition ;
 ; Revision Name                      ; UPC                                     ;
 ; Top-level Entity Name              ; UPC                                     ;
@@ -46,11 +46,11 @@ applicable agreement for further details.
 ; Device                             ; EP2C8Q208C8                             ;
 ; Timing Models                      ; Final                                   ;
 ; Met timing requirements            ; Yes                                     ;
-; Total logic elements               ; 18 / 8,256 ( < 1 % )                    ;
-;     Total combinational functions  ; 18 / 8,256 ( < 1 % )                    ;
+; Total logic elements               ; 14 / 8,256 ( < 1 % )                    ;
+;     Total combinational functions  ; 14 / 8,256 ( < 1 % )                    ;
 ;     Dedicated logic registers      ; 8 / 8,256 ( < 1 % )                     ;
 ; Total registers                    ; 8                                       ;
-; Total pins                         ; 21 / 138 ( 15 % )                       ;
+; Total pins                         ; 19 / 138 ( 14 % )                       ;
 ; Total virtual pins                 ; 0                                       ;
 ; Total memory bits                  ; 0 / 165,888 ( 0 % )                     ;
 ; Embedded Multiplier 9-bit elements ; 0 / 36 ( 0 % )                          ;
@@ -63,24 +63,25 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/19/2024 22:01:44 ;
+; Start date & time ; 05/19/2024 09:28:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; UPC                 ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                  ;
-+------------------------------------+-------------------------------+---------------+-------------+----------------+
-; Assignment Name                    ; Value                         ; Default Value ; Entity Name ; Section Id     ;
-+------------------------------------+-------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 1099183054846.171353530407240 ; --            ; --          ; --             ;
-; MAX_CORE_JUNCTION_TEMP             ; 85                            ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP             ; 0                             ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                      ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                        ; --            ; --          ; Top            ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                           ; --            ; --          ; eda_blast_fpga ;
-+------------------------------------+-------------------------------+---------------+-------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                      ;
++------------------------------------+-----------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                             ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+-----------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 109952948961635.171608211905088   ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP             ; 85                                ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP             ; 0                                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; G:/CCP-DESIGN/Lesson3/UPC/UPC.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                          ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                            ; --            ; --          ; Top            ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                               ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+-----------------------------------+---------------+-------------+----------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -88,11 +89,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 235 MB              ; 00:00:00                           ;
-; Fitter                  ; 00:00:00     ; 1.0                     ; 260 MB              ; 00:00:00                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 225 MB              ; 00:00:00                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 181 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:02     ; --                      ; --                  ; 00:00:00                           ;
+; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 199 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:02     ; 1.0                     ; 210 MB              ; 00:00:01                           ;
+; Assembler               ; 00:00:02     ; 1.0                     ; 189 MB              ; 00:00:01                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 146 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:06     ; --                      ; --                  ; 00:00:03                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -101,10 +102,10 @@ applicable agreement for further details.
 +-------------------------+------------------+---------------+------------+----------------+
 ; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
 +-------------------------+------------------+---------------+------------+----------------+
-; Analysis & Synthesis    ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
-; Fitter                  ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
-; Assembler               ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
-; Classic Timing Analyzer ; Xihan            ; Windows Vista ; 6.2        ; x86_64         ;
+; Analysis & Synthesis    ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
+; Fitter                  ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
+; Assembler               ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
+; Classic Timing Analyzer ; 503-27           ; Windows Vista ; 6.1        ; i686           ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 

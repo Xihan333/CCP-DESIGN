@@ -1,0 +1,38 @@
+|counter-256
+Q7 <= COUNTER-8:inst3.Q3
+CP => COUNTER-8:inst4.CP
+CLR => COUNTER-8:inst4.CLR
+CLR => COUNTER-8:inst3.CLR
+Q6 <= COUNTER-8:inst3.Q2
+Q5 <= COUNTER-8:inst3.Q1
+Q4 <= COUNTER-8:inst3.Q0
+Q3 <= COUNTER-8:inst4.Q3
+Q2 <= COUNTER-8:inst4.Q2
+Q1 <= COUNTER-8:inst4.Q1
+Q0 <= COUNTER-8:inst4.Q0
+
+
+|counter-256|COUNTER-8:inst3
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst2.ACLR
+CLR => inst1.ACLR
+CLR => inst.ACLR
+CLR => inst3.ACLR
+CP => inst.CLK
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter-256|COUNTER-8:inst4
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst2.ACLR
+CLR => inst1.ACLR
+CLR => inst.ACLR
+CLR => inst3.ACLR
+CP => inst.CLK
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

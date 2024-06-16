@@ -1,0 +1,254 @@
+Version 8.1 Build 163 10/28/2008 SJ Web Edition
+11
+942
+OFF
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+select-2
+# storage
+db|ACC-MEMORY.(1).cnf
+db|ACC-MEMORY.(1).cnf
+# case_insensitive
+# source_file
+..|select|select-2.bdf
+1ebdc4f8457117a1ab60cd581879e6b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+counter-256
+# storage
+db|ACC-MEMORY.(2).cnf
+db|ACC-MEMORY.(2).cnf
+# case_insensitive
+# source_file
+..|counter-256|counter-256.bdf
+ac2e8af558fe0c480481e68af157547
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+COUNTER-8
+# storage
+db|ACC-MEMORY.(3).cnf
+db|ACC-MEMORY.(3).cnf
+# case_insensitive
+# source_file
+COUNTER-8.bdf
+7421345b34c856c34f5d1ed16a546e
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+counter-256:inst1|COUNTER-8:inst3
+counter-256:inst1|COUNTER-8:inst4
+counter-256:inst10|COUNTER-8:inst3
+counter-256:inst10|COUNTER-8:inst4
+}
+# macro_sequence
+
+# end
+# entity
+MAR-8
+# storage
+db|ACC-MEMORY.(5).cnf
+db|ACC-MEMORY.(5).cnf
+# case_insensitive
+# source_file
+..|MAR-8|MAR-8.bdf
+6b28393b1522522c4a836a41782d4ca
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+MBR
+# storage
+db|ACC-MEMORY.(6).cnf
+db|ACC-MEMORY.(6).cnf
+# case_insensitive
+# source_file
+..|MBR|MBR.bdf
+ca64b2ab3a8d3b1784ad3c611bd222a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+halt
+# storage
+db|ACC-MEMORY.(4).cnf
+db|ACC-MEMORY.(4).cnf
+# case_insensitive
+# source_file
+..|Halt|halt.bdf
+8f4aadd0ac5fbfb8bd141298c7b71c42
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+select-2
+# storage
+db|ACC-MEMORY.(7).cnf
+db|ACC-MEMORY.(7).cnf
+# case_insensitive
+# source_file
+select-2.bdf
+1ebdc4f8457117a1ab60cd581879e6b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+select-2:inst8
+}
+# macro_sequence
+
+# end
+# entity
+counter-256
+# storage
+db|ACC-MEMORY.(8).cnf
+db|ACC-MEMORY.(8).cnf
+# case_insensitive
+# source_file
+counter-256.bdf
+ac2e8af558fe0c480481e68af157547
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+counter-256:inst1
+counter-256:inst10
+}
+# macro_sequence
+
+# end
+# entity
+halt
+# storage
+db|ACC-MEMORY.(9).cnf
+db|ACC-MEMORY.(9).cnf
+# case_insensitive
+# source_file
+halt.bdf
+29b244a074aae96045ae3d3c672a8236
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+halt:inst
+}
+# macro_sequence
+
+# end
+# entity
+MAR-8
+# storage
+db|ACC-MEMORY.(10).cnf
+db|ACC-MEMORY.(10).cnf
+# case_insensitive
+# source_file
+MAR-8.bdf
+6b28393b1522522c4a836a41782d4ca
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MAR-8:MAR
+}
+# macro_sequence
+
+# end
+# entity
+MBR
+# storage
+db|ACC-MEMORY.(11).cnf
+db|ACC-MEMORY.(11).cnf
+# case_insensitive
+# source_file
+MBR.bdf
+ca64b2ab3a8d3b1784ad3c611bd222a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+MBR:inst6
+}
+# macro_sequence
+
+# end
+# entity
+ACC-MEMORY
+# storage
+db|ACC-MEMORY.(0).cnf
+db|ACC-MEMORY.(0).cnf
+# case_insensitive
+# source_file
+ACC-MEMORY.bdf
+6ec3875c4db30584567518766e929f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

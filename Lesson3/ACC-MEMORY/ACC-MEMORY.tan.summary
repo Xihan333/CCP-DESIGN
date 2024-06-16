@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.126 ns
+From           : D5
+To             : MAR-8:MAR|inst2
+From Clock     : --
+To Clock       : CPMAR
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 22.310 ns
+From           : counter-256:inst1|COUNTER-8:inst3|inst3
+To             : A7
+From Clock     : CP
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 12.647 ns
+From           : MARY
+To             : A3
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 0.269 ns
+From           : D2
+To             : MBR:inst6|inst7
+From Clock     : --
+To Clock       : CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CPS'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 380.08 MHz ( period = 2.631 ns )
+From           : counter-256:inst10|COUNTER-8:inst4|inst
+To             : counter-256:inst10|COUNTER-8:inst4|inst
+From Clock     : CPS
+To Clock       : CPS
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 380.08 MHz ( period = 2.631 ns )
+From           : counter-256:inst10|COUNTER-8:inst4|inst
+To             : counter-256:inst10|COUNTER-8:inst4|inst
+From Clock     : CP
+To Clock       : CP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CPPC'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 405.02 MHz ( period = 2.469 ns )
+From           : counter-256:inst1|COUNTER-8:inst4|inst1
+To             : counter-256:inst1|COUNTER-8:inst4|inst1
+From Clock     : CPPC
+To Clock       : CPPC
+Failed Paths   : 0
+
+Type           : Clock Setup: 'HALT'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 405.02 MHz ( period = 2.469 ns )
+From           : counter-256:inst10|COUNTER-8:inst4|inst
+To             : counter-256:inst10|COUNTER-8:inst4|inst
+From Clock     : HALT
+To Clock       : HALT
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

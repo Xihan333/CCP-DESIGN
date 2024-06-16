@@ -29,7 +29,7 @@ db|UPC.(0).cnf
 # case_insensitive
 # source_file
 UPC.bdf
-4bb44ceff1b178584c6a50fd74513849
+bcdcbfeb47971af48a8c689e5af2e360
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -48,7 +48,7 @@ db|UPC.(1).cnf
 db|UPC.(1).cnf
 # case_insensitive
 # source_file
-..|..|..|libraries|others|maxplus2|74161.tdf
+c:|altera|81|quartus|libraries|others|maxplus2|74161.tdf
 8ae87de328fa01839f5a524a1a9ba
 7
 # user_parameter {
@@ -115,7 +115,7 @@ A
 3
 }
 # include_file {
-..|..|..|libraries|megafunctions|aglobal.inc
+c:|altera|81|quartus|libraries|megafunctions|aglobal.inc
 ba79644cade9dcbd5df4af72a9b02986
 }
 # hierarchies {
@@ -131,7 +131,7 @@ db|UPC.(2).cnf
 db|UPC.(2).cnf
 # case_insensitive
 # source_file
-..|..|..|libraries|others|maxplus2|f74161.bdf
+c:|altera|81|quartus|libraries|others|maxplus2|f74161.bdf
 408d3815988dee8ef0f04d17774959
 26
 # internal_option {
@@ -152,7 +152,7 @@ db|UPC.(3).cnf
 db|UPC.(3).cnf
 # case_insensitive
 # source_file
-..|..|..|libraries|others|maxplus2|74161.tdf
+c:|altera|81|quartus|libraries|others|maxplus2|74161.tdf
 8ae87de328fa01839f5a524a1a9ba
 7
 # user_parameter {
@@ -196,12 +196,6 @@ QA
 LDN
 -1
 3
-ENT
--1
-3
-ENP
--1
-3
 D
 -1
 3
@@ -220,9 +214,15 @@ B
 A
 -1
 3
+ENT
+-1
+2
+ENP
+-1
+2
 }
 # include_file {
-..|..|..|libraries|megafunctions|aglobal.inc
+c:|altera|81|quartus|libraries|megafunctions|aglobal.inc
 ba79644cade9dcbd5df4af72a9b02986
 }
 # hierarchies {

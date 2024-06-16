@@ -34,26 +34,6 @@
 		</pin>
 		<pin name="b7" source="Pin Planner" >
 		</pin>
-		<pin name="AY" source="Pin Planner" >
-		</pin>
-		<pin name="BY" source="Pin Planner" >
-		</pin>
-		<pin name="Y0" source="Pin Planner" >
-		</pin>
-		<pin name="Y1" source="Pin Planner" >
-		</pin>
-		<pin name="Y2" source="Pin Planner" >
-		</pin>
-		<pin name="Y3" source="Pin Planner" >
-		</pin>
-		<pin name="Y4" source="Pin Planner" >
-		</pin>
-		<pin name="Y5" source="Pin Planner" >
-		</pin>
-		<pin name="Y6" source="Pin Planner" >
-		</pin>
-		<pin name="Y7" source="Pin Planner" >
-		</pin>
 	</pin_info>
 	<buses>
 	</buses>
